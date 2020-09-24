@@ -1,9 +1,139 @@
-<h1>CAD2020</h1>
-<p><img alt="" height="418" src="/images/小新.jpg" width="234"/></p>
-<p></p>
-<p></p>
-<h1>week1</h1>
-<h2>個人</h2>
+<!DOCTYPE html><html>
+        <head>
+        <title>CMSiMDE</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/magnific-popup.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/jquery-ui.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/flaticon/font/flaticon.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/aos.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/style.css">
+        <link rel="shortcut icon" href="./../cmsimde/static/favicons.png">
+        
+        <style type='text/css'>
+            .site-section {
+            background-color: #FFFF;
+            padding: 40px 40px;
+            }
+            body > div > div.dropdown.open {
+                display: block;
+            }
+        </style>
+    
+        <!-- <script src="./../cmsimde/static/jquery.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/normalize.min.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch_set.js"></script>
+        <script src="tipuesearch_content.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/tipuesearch.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch.js"></script>
+        <script>
+            /* original tipuesearch
+            $(document).ready(function() {
+                 $('#tipue_search_input').tipuesearch();
+            });
+            */
+            // customed doSearch
+            function doSearch() {
+                $('#tipue_search_input').tipuesearch({
+                    newWindow: true, 
+                    minimumLength: 2,
+                    wholeWords: false, // for search 中文
+                });
+            }
+            $(document).ready(doSearch);
+        </script>
+        
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushBash.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDiff.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDart.js"></script>
+<link type="text/css" rel="stylesheet" href="./../cmsimde/static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<!-- 暫時不用
+<script src="./../cmsimde/static/fengari-web.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+<style>
+img.add_border {
+    border: 3px solid blue;
+}
+</style>
+
+</head>
+<body>
+<div class='container'><nav>
+        
+    <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+            <header class="site-navbar py-4 bg-white" role="banner">
+              <div class="container-fluid">
+                <div class="row align-items-center">
+                <h1>電腦輔助設計與實習</h1>
+                <div class="pl-4">
+                    <form>
+                    <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
+                    </form>
+                </div>
+                  <!-- <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">電腦輔助設計與實習</a></h1> 
+                  </div>
+                  -->
+                  <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+    <ul class='site-menu js-clone-nav mr-auto d-none d-lg-block'>
+                        <li class="active has-children"><a href="index.html">Home</a>
+                        <ul class="dropdown">
+                            <li><a href="sitemap.html">Site Map</a></li>
+                            <li><a href="./../reveal/index.html">reveal</a></li>
+                            <li><a href="./../blog/index.html">blog</a></li>
+                        </ul>
+                      </li>
+                     <li><a href='CAD2020.html'>CAD2020</a><li class='has-children'><a href='week1.html'>week1</a><ul class='dropdown'><li><a href='個人.html'>個人</a><li><a href='組別.html'>組別</a></li>
+                      </ul>
+                </nav>
+              </div>
+              <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+              </div>
+
+            </div>
+          </div>
+          
+        </header>
+    <div id="tipue_search_content">week1 << <a href='week1.html'>Previous</a> <a href='組別.html'>Next</a> >> 組別<br /><h1>個人</h1>
 <p>零件繪圖練習1(onshape)</p>
 <p>圖紙:</p>
 <p><a href="http://mde.tw/cad2020/downloads/Solidworks%20%E9%9B%B6%E4%BB%B6%E7%B9%AA%E5%9C%96%E7%B7%B4%E7%BF%921.pdf">http://mde.tw/cad2020/downloads/Solidworks%20%E9%9B%B6%E4%BB%B6%E7%B9%AA%E5%9C%96%E7%B7%B4%E7%BF%921.pdf</a></p>
@@ -59,11 +189,55 @@
 <p></p>
 <p>25:<a href="https://cad.onshape.com/documents/e71b2b3435a60fbc0f7174a4/w/c0d69b7beb4fa30aec341c88/e/089f8e20daff7fb0a0d12ca4  https://cad.onshape.com/documents/e79458015d860143933c3efa/w/c30fc00eed39a60342e7ae38/e/b42d0a4711accf63d53dc322  https://cad.onshape.com/documents/e79458015d860143933c3efa/w/c30fc00eed39a60342e7ae38/e/b42d0a4711accf63d53dc322  https://cad.onshape.com/documents/e79458015d860143933c3efa/w/c30fc00eed39a60342e7ae38/e/b42d0a4711accf63d53dc322  https://cad.onshape.com/documents/be65ec405e5d57a4f45ff711/w/42f4c99a82d34227bacff3cf/e/838b9ddeb92ff050b35eee94  https://cad.onshape.com/documents/86ae341b2f7d26ca342bec1b/w/977be7d5d8cf241c84b05196/e/62c124c4dc20aba73967a346   https://cad.onshape.com/documents/494a7551350dd30a2784484c/w/8ca390a6d81fec0a367571f3/e/3d1804ec22d2dc6c8de244ee  https://cad.onshape.com/documents/2b7b1609b0d90d6a6cd00bbc/w/dd3e91bc4fcc1835c9f80e6c/e/2719a51dc14554fd8f74d6d2  https://cad.onshape.com/documents/e7700f993ef238b3750e1e55/w/65acf83ff518d53eee4f8b21/e/cc38bdd9a69e9fc89fc7ac9b  https://cad.onshape.com/documents/baabd8135580f59b58b641fd/w/c33762393296d916da05e1af/e/b22194a48507fb06f6a71ec4  https://cad.onshape.com/documents/6ee8949d11353ab7972d965f/w/056725f1e490c9302acd0e05/e/101d962ce646c8db4b63b390  https://cad.onshape.com/documents/71df69a73b9dd704d088a975/w/33730c21c63256cd36ba5796/e/c2b29446d55694c6d518460b  https://cad.onshape.com/documents/160eacda40e03a7b273c154f/w/7a5d5b772725e29bbc07fae9/e/b8af97fbfc472cc11689a108  https://cad.onshape.com/documents/55c7c25063f52e5da297f28a/w/69e7fe0eb142134ad44ff514/e/6a5ce32eb0c30638a3b4d716  https://cad.onshape.com/documents/fc0c1967c109de663fa2559a/w/50c3092140147937fbdd4308/e/4bb23b895d88efd908b6ff54  https://cad.onshape.com/documents/e614c78448794218bbdd338e/w/03042945dbbbe2882fc4f17b/e/14c6c3b33d1a92477c10b539  https://cad.onshape.com/documents/c3ce6090b2d8c99030e03bb1/w/bc8328fa37a3454349177e89/e/6dd2b023f4690a135a4cc583  https://cad.onshape.com/documents/79b658e94f5f90c39d35f561/w/9a9fdd16cb2a49cc0c00a270/e/ab031a78521818652503ee79  https://cad.onshape.com/documents/fc7d5e9b8a6704bf886f5768/w/54aed59a4f0d15441b8b5f40/e/7db94f786e53d2ff3d12a705  https://cad.onshape.com/documents/ae6330b3cd6690a3078c4897/w/f8b68a1909ffa11656536635/e/97249b2eeee7c1e6657f29f6  https://cad.onshape.com/documents/fd16fbbcce2dca20bd1fc3d3/w/efeb68bce7cc6cb07f72c89d/e/e497b34b366143fb25e3423a  https://cad.onshape.com/documents/193053ab6c0a774f1a024179/w/30f11d2623dbb67951b1a33b/e/df4d05e817b8e1860f23e074">https://cad.onshape.com/documents/193053ab6c0a774f1a024179/w/30f11d2623dbb67951b1a33b/e/df4d05e817b8e1860f23e074</a></p>
 <p>體積列表(前25)</p>
-<p><img alt="" height="584" src="/images/123456.PNG" width="239"/></p>
-<h2>組別</h2>
-<p></p>
-<p><img alt="" height="2375" src="/images/excel.png" width="965"/></p>
-<p><img alt="" height="433" src="/images/體積1_25.png" width="723"/></p>
-<p><img alt="" height="435" src="/images/體積25_50.png" width="720"/></p>
-<p><img alt="" height="497" src="/images/體積1_50.png" width="724"/></p>
-<p></p>
+<p><img alt="" height="584" src="./../images/123456.PNG" width="239"/></p>
+<br />week1 << <a href='week1.html'>Previous</a> <a href='組別.html'>Next</a> >> 組別</div>
+        
+    <!-- footer -->
+      <div class="container">
+        <div class="row pt-3 mx-auto">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    <!-- for footer -->
+    
+        </div> <!-- for site wrap -->
+            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
+            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/aos.js"></script>
+            <!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+            <script src="../cmsimde/static/chimper/js/main.js"></script>
+        
+<!-- 啟用 LaTeX equations 編輯 -->
+  <!-- <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\(', '\)']]}
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>-->
+    </body></html>
+        
